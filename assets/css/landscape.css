@@ -1,0 +1,140 @@
+@media (orientation: landscape) {
+    /* header start */
+     .header_main {
+        padding: 15px 30px;
+    }
+
+    nav ul {
+        gap: 15px;
+    }
+
+    .search_bar {
+        padding: 14px 16px;
+    }
+
+    .search_bar input::placeholder {
+        font-size: 13px;
+    }
+
+    .search_bar .fa-magnifying-glass {
+        font-size: 18px;
+    }
+
+    .search_bar input {
+        width: 140px;
+    }
+
+    .search_bar button i {
+        font-size: 20px;
+    }
+    /* header end */
+    /* hero start */
+  .hero_section {
+        flex-direction: row;
+        padding: 40px;
+    }
+
+    .text_content {
+        max-width: 48%;
+    }
+
+    .text_content h1 {
+        font-size: 48px;
+    }
+
+    .text_content p {
+        font-size: 16px;
+    }
+
+    .order-btn,
+    .process-btn {
+        font-size: 15px;
+        padding: 12px 28px;
+    }
+
+    .hero_img {
+        width: 48%;
+    }
+
+    .hero_img img {
+        width: 100%;
+        height: auto;
+    }
+    /* hero end */
+    /* card start */
+    /* card end  */
+
+    /* feature section start */
+
+      .features_main {
+        padding-top: 20px;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .features_img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .features_text {
+        padding-top: 100px;
+        width: 50%;
+    }
+
+    /* feature section end  */
+  
+    /* feature two section start */
+
+    .features_two_main {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .text-content {
+        width: 50%;
+        padding: 200px 30px;
+    }
+
+    .home_we {
+        font-size: 30px;
+        line-height: 42px;
+    }
+
+    .vero {
+        font-size: 16px;
+    }
+
+    .explore-btn {
+        padding: 18px 28px;
+    }
+    
+    /* feature two section end  */
+
+   
+  
+    
+    /* footer start */
+    .footer_main {
+        flex-wrap: nowrap;
+        padding: 60px 50px;
+    }
+
+    .footer_column_logo,
+    .footer-column {
+        width: auto;
+    }
+
+    .footer_column_logo p,
+    .footer-column p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .footer-bottom {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px 40px;
+    }
+    /* Footer end */
+}

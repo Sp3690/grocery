@@ -10,6 +10,11 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- link custom css -->
     <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Mobile Screen css -->
+     <link rel="stylesheet" href="./assets/css/media.css">
+    <!-- Tablet Screen css -->
+     <link rel="stylesheet" href="./assets/css/tablet.css">
+     <link rel="stylesheet" href="./assets/css/landscape.css">
     <title>Grocery delivery </title>
 </head>
 
@@ -21,7 +26,10 @@
                 <div class="header_logo">
                     <img src="./assets/images/logo.png" alt="logo">
                 </div>
-                <nav>
+                <div class="hamburger" id="hamburger">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <nav id="nav-menu">
                     <ul>
                         <li><a href="#home">Home</a></li>
                         <li><a href="#menu">Menu</a></li>
@@ -30,14 +38,16 @@
                     </ul>
                 </nav>
                 <div class="search_bar">
-                    <input type="text" placeholder="Search...">
-                    <i class="fa-solid fa-bag-shopping"></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>&nbsp;<input type="text" placeholder="Search">
+                    <span class="border_left"></span>
+                    <button><i class="fa-solid fa-bag-shopping"></i></button>
                 </div>
             </div>
             <!-- hero start -->
             <div class="hero_section">
                 <div class="text_content">
-                    <span class="tag">More Than Faster<img src="./assets/images/732fb1141ef00eaa7559e7d75002dea03dbb515c.png" alt=""></span>
+                    <span class="tag">More Than Faster<img
+                            src="./assets/images/732fb1141ef00eaa7559e7d75002dea03dbb515c.png" alt=""></span>
                     <h1>Groceries delivery in as little as <span class="hours">2 hours</span></h1>
                     <p>Grocer ensures fresh grocery every morning to your family without getting out in this pandemic.
                     </p>
@@ -108,7 +118,8 @@
                 <div class="text-content">
                     <p class="home">Home Delivery</p>
                     <h5 class="home_we">Sit At Home We Will Take <br>Care Your Order</h5>
-                    <p class="vero">At vero eos et accusamus et iusto odio dignissimos <br> ducimus qui blanditiis praesentium voluptatum <br>
+                    <p class="vero">At vero eos et accusamus et iusto odio dignissimos <br> ducimus qui blanditiis
+                        praesentium voluptatum <br>
                         deleniti atque corrupti quos</p>
                     <a href="#" class="explore-btn">Explore Now</a>
                 </div>
@@ -121,27 +132,70 @@
     <!-- features section two end -->
 
     <!-- mobile app view start -->
-        <section class="mobile_view">
-            <div class="container">
-                <div class="mobile_main">
-                    <div class="mobile_img">
-                        <img src="./assets/images/mobile mockup.png" alt="mobile mockup">
-                    </div>
-                    <div class="mobileview_txt">
-                        <p class="app">Download our app</p>
-                        <h5>Get the Groceries app <br> order more easily.</h5>
-                        <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit, sed do eiusmod tempor incididunt ut.</p>
-                        <button class="appstore">
+    <section class="mobile_view">
+        <div class="container">
+            <div class="mobile_main">
+                <div class="mobile_img">
+                    <img src="./assets/images/mobile mockup.png" alt="mobile mockup">
+                </div>
+                <div class="mobileview_txt">
+                    <p class="app">Download our app</p>
+                    <h5>Get the Groceries app <br> order more easily.</h5>
+                    <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit, sed do eiusmod tempor
+                        incididunt ut.</p>
+                    <button class="appstore">
                         <a href="#"><i class="fa-brands fa-app-store-ios"></i>App Store</a>
-                        </button>
-                        <button class="playstore">
+                    </button>
+                    <button class="playstore">
                         <a href="#"><i class="fa-brands fa-google-play"></i>Play Store</a>
-                        </button>
-                    </div>
+                    </button>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
     <!-- mobile app view End -->
+    <!-- footer start -->
+    <footer>
+        <div class="container">
+            <div class="footer_main">
+                <div class="footer_column_logo">
+                    <img src="./assets/images/logo.png" alt="">
+                    <p>Fast delivery, which is active all over the world, serves with many transportation vehicles.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">All Products</a></li>
+                        <li><a href="#">Locations Map</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Order tracking</a></li>
+                        <li><a href="#">Wish List</a></li>
+                        <li><a href="#">My account</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Get in Touch</h3>
+                    <p>Subscribe to our weekly Newsletter and receive updates via email.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>All Rights Reserved @ BESNIK 2021</p>
+                <div>
+                    <a href="#">Terms & Conditions</a>
+                    <a href="#">Privacy & Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+     <script src="./assets/js/script.js"></script>
 </body>
 
 </html>

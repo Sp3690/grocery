@@ -1,0 +1,271 @@
+@media screen and (max-width: 767px) {
+    .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    /* Show Hamburger Icon, Hide Navigation Menu by Default */
+    .hamburger {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+     nav.active {
+        display: block;
+    }
+    
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+    }
+
+    nav ul li a {
+        padding: 10px 0;
+        display: block;
+        width: 100%;
+    }
+
+    .search_bar {
+        display: none;
+    }
+
+    /* hero section starts */
+
+    .hero_section {
+        flex-direction: column;
+        padding: 30px 20px;
+    }
+
+    .text_content {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .text_content h1 {
+        font-size: 35px;
+    }
+
+    .text_content p {
+        font-size: 18px;
+    }
+
+    .buttons {
+        justify-content: center;
+    }
+
+    .hero_img {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+
+    /* hero section ends */
+
+    /* card section start*/
+
+    .text_section p {
+        padding-top: 60px;
+        font-size: 16px;
+    }
+
+    .text_section h3 {
+        font-size: 28px;
+        line-height: 38px;
+        padding: 0 15px;
+    }
+
+    .card_section {
+        flex-direction: column;
+        padding: 30px 20px;
+        gap: 30px;
+    }
+
+    .card {
+        width: 90%;
+        max-width: 320px;
+        height: auto;
+        padding: 30px 0;
+    }
+
+    .card img {
+        padding-top: 0;
+        width: 60px;
+        height: auto;
+    }
+
+    .card h6 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .card p {
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    /* card section end */
+
+    /* features section start */
+
+    .features_main {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 15px;
+    }
+
+    .features_img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .features_text h5 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .choose {
+        font-size: 16px;
+    }
+
+    .content {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .explore_now {
+        margin-top: 40px;
+        padding: 18px 30px;
+        font-size: 16px;
+    }
+
+    /* features section end  */
+
+    /*  features section two start  */
+    .features_two_main {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 20px;
+    }
+
+    .text-content {
+        padding: 20px;
+    }
+
+    .home {
+        font-size: 15px;
+    }
+
+    .home_we {
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    .vero {
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 40px;
+    }
+
+    .explore-btn {
+        padding: 18px 30px;
+        font-size: 16px;
+    }
+
+    .featuretwo_img img {
+        width: 100%;
+        height: auto;
+        max-width: 320px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    /* features section two end  */
+
+    /* mobile app view start */
+ .mobile_main {
+        flex-direction: column;
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    .mobile_img,
+    .mobileview_txt {
+        width: 100%;
+        padding: 0;
+    }
+
+    .mobile_img img {
+        width: 100%;
+        height: auto;
+        max-width: 320px;
+        margin: 0 auto 30px;
+    }
+
+    .mobileview_txt h5 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    .lorem {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .appstore,
+    .playstore {
+        padding: 20px;
+        margin-top: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
+    }
+
+    .fa-brands {
+        padding-right: 10px;
+        font-size: 24px;
+    }
+
+   /* mobile app view End */
+
+
+    /* footer start */
+    .footer_main {
+        flex-wrap: wrap;
+        padding: 60px 40px;
+        gap: 40px;
+    }
+
+    .footer_column_logo,
+    .footer-column {
+        width: 45%;
+    }
+
+    .footer_column_logo p,
+    .footer-column p,
+    .footer-column ul li a {
+        font-size: 15px;
+    }
+
+    .footer-column h3 {
+        font-size: 17px;
+    }
+
+    .footer-bottom {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        padding: 15px;
+    }
+
+    .footer-bottom p,
+    .footer-bottom a {
+        font-size: 13px;
+    }
+   /* Footer End */
+}
+
